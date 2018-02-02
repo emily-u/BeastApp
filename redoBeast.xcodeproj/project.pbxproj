@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15B4AE1202176F60086F0C6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B4AE0202176F60086F0C6 /* CustomCell.swift */; };
 		A1BE6DF820214CC400CCC46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6DF720214CC400CCC46F /* AppDelegate.swift */; };
-		A1BE6DFA20214CC400CCC46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6DF920214CC400CCC46F /* ViewController.swift */; };
 		A1BE6DFD20214CC400CCC46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BE6DFB20214CC400CCC46F /* Main.storyboard */; };
 		A1BE6E0020214CC400CCC46F /* redoBeast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6DFE20214CC400CCC46F /* redoBeast.xcdatamodeld */; };
 		A1BE6E0220214CC400CCC46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BE6E0120214CC400CCC46F /* Assets.xcassets */; };
 		A1BE6E0520214CC400CCC46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BE6E0320214CC400CCC46F /* LaunchScreen.storyboard */; };
 		A1BE6E1020214CC400CCC46F /* redoBeastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E0F20214CC400CCC46F /* redoBeastTests.swift */; };
 		A1BE6E1B20214CC400CCC46F /* redoBeastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E1A20214CC400CCC46F /* redoBeastUITests.swift */; };
+		A1BE6E29202150FD00CCC46F /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E28202150FD00CCC46F /* addViewController.swift */; };
+		A1BE6E2B2021511B00CCC46F /* toBeastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E2A2021511B00CCC46F /* toBeastTableViewController.swift */; };
+		A1BE6E2D2021512F00CCC46F /* beastedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE6E2C2021512F00CCC46F /* beastedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A15B4AE0202176F60086F0C6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A1BE6DF420214CC400CCC46F /* redoBeast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redoBeast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE6DF720214CC400CCC46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1BE6DF920214CC400CCC46F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1BE6DFC20214CC400CCC46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1BE6DFF20214CC400CCC46F /* redoBeast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = redoBeast.xcdatamodel; sourceTree = "<group>"; };
 		A1BE6E0120214CC400CCC46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		A1BE6E1620214CC400CCC46F /* redoBeastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redoBeastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE6E1A20214CC400CCC46F /* redoBeastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redoBeastUITests.swift; sourceTree = "<group>"; };
 		A1BE6E1C20214CC400CCC46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BE6E28202150FD00CCC46F /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		A1BE6E2A2021511B00CCC46F /* toBeastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toBeastTableViewController.swift; sourceTree = "<group>"; };
+		A1BE6E2C2021512F00CCC46F /* beastedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beastedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		A1BE6DEB20214CC400CCC46F = {
 			isa = PBXGroup;
 			children = (
+				A1BE6E2A2021511B00CCC46F /* toBeastTableViewController.swift */,
+				A1BE6E2C2021512F00CCC46F /* beastedTableViewController.swift */,
+				A1BE6E28202150FD00CCC46F /* addViewController.swift */,
 				A1BE6DF620214CC400CCC46F /* redoBeast */,
 				A1BE6E0E20214CC400CCC46F /* redoBeastTests */,
 				A1BE6E1920214CC400CCC46F /* redoBeastUITests */,
@@ -99,9 +108,9 @@
 		A1BE6DF620214CC400CCC46F /* redoBeast */ = {
 			isa = PBXGroup;
 			children = (
-				A1BE6DF720214CC400CCC46F /* AppDelegate.swift */,
-				A1BE6DF920214CC400CCC46F /* ViewController.swift */,
 				A1BE6DFB20214CC400CCC46F /* Main.storyboard */,
+				A1BE6DF720214CC400CCC46F /* AppDelegate.swift */,
+				A15B4AE0202176F60086F0C6 /* CustomCell.swift */,
 				A1BE6E0120214CC400CCC46F /* Assets.xcassets */,
 				A1BE6E0320214CC400CCC46F /* LaunchScreen.storyboard */,
 				A1BE6E0620214CC400CCC46F /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BE6DFA20214CC400CCC46F /* ViewController.swift in Sources */,
 				A1BE6E0020214CC400CCC46F /* redoBeast.xcdatamodeld in Sources */,
+				A1BE6E2D2021512F00CCC46F /* beastedTableViewController.swift in Sources */,
+				A1BE6E29202150FD00CCC46F /* addViewController.swift in Sources */,
+				A1BE6E2B2021511B00CCC46F /* toBeastTableViewController.swift in Sources */,
+				A15B4AE1202176F60086F0C6 /* CustomCell.swift in Sources */,
 				A1BE6DF820214CC400CCC46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
